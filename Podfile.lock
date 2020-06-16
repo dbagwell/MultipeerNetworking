@@ -1,0 +1,16 @@
+PODS:
+  - Rebar (1.0.0)
+
+DEPENDENCIES:
+  - Rebar
+
+SPEC REPOS:
+  trunk:
+    - Rebar
+
+SPEC CHECKSUMS:
+  Rebar: f67d229f21de72e258c3fae3870c1b74cd0f1f5f
+
+PODFILE CHECKSUM: d42f75b9ded9e622ce03671d80e0bf99fa8cd6be
+
+COCOAPODS: 1.9.3

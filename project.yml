@@ -1,0 +1,29 @@
+name: MultipeerNetworking
+options:
+    minimumXcodeGenVersion: 2.15.1
+    usesTabs: false
+    indentWidth: 4
+    tabWidth: 4
+    deploymentTarget:
+        iOS: 11.0
+    groupSortPosition: top
+    transitivelyLinkDependencies: true
+attributes:
+    ORGANIZATIONNAME: David Bagwell
+configs:
+    Debug: debug
+    Release: release
+fileGroups:
+    - MultipeerNetworking.podspec
+    - project.yml
+    - README.md
+    - LICENSE
+targets:
+    MultipeerNetworking:
+        platform: iOS
+        type: framework
+        sources:
+            - Source
+            - SupportingFiles/Info.plist
+        settings:
+            PRODUCT_BUNDLE_IDENTIFIER: dbagwell.MultipeerNetworking
